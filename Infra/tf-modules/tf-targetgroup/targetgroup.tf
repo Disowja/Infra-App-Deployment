@@ -11,7 +11,7 @@ resource "aws_lb_target_group" "ecs-alb-target-group" {
 }
 
 resource "aws_lb_listener_rule" "alb_listener_rule" {
-  listener_arn = "arn:aws:elasticloadbalancing:us-east-2:851725229101:loadbalancer/app/frontend-alb/6f497568a55617b0"
+  listener_arn = "arn:aws:elasticloadbalancing:us-east-2:851725229101:listener/app/frontend-alb/6f497568a55617b0/eadfb1ab7466b48c"
   priority     = var.priorityNumber
 
   action {
