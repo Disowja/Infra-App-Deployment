@@ -12,7 +12,7 @@ metadata:
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/healthcheck-path: /actuator/health
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:eks:us-east-2:851725229101:cluster/Eks-cluster
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-2:851725229101:certificate/35b60c0a-d836-49f6-b9a5-7b42b93b2e8a
 
     
 spec:
