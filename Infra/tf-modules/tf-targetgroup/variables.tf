@@ -21,7 +21,7 @@ type = string
 }
 
 
-variable "priorityNumber" {
+variable "PriorityNumber" {
 type = number
 }
 
